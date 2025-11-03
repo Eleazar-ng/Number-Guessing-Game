@@ -1,0 +1,26 @@
+{
+  "name": "number-guessing-game",
+  "version": "1.0.0",
+  "description": "a simple number guessing game to test your luck.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eleazar-ng/Number-Guessing-Game.git"
+  },
+  "keywords": [
+    "game",
+    "number",
+    "game",
+    "guessing",
+    "game"
+  ],
+  "author": "Laizer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Eleazar-ng/Number-Guessing-Game/issues"
+  },
+  "homepage": "https://github.com/Eleazar-ng/Number-Guessing-Game#readme"
+}
