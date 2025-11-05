@@ -25,7 +25,7 @@ class NumberGuessingGame {
 
       let play = true;
       while(play){
-        
+        console.log('play')
       }
     } catch (error) {
       console.log(error)
