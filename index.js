@@ -58,7 +58,7 @@ class NumberGuessingGame {
 
   async selectDifficulty() {
     return new Promise((resolve,reject) => {
-      this.readline.question('Enter your choice:', (choice) => {
+      this.readline.question('\nEnter your choice:', (choice) => {
         const selected = difficulties[parseInt(choice) - 1];
         if(selected && DIFFICULTY_LEVELS[selected]){
           resolve(selected)
@@ -127,7 +127,7 @@ class NumberGuessingGame {
 
         return true;
       } else{
-        console.log(` Incorrect! The number is ${guess < secretNumber ? 'greater' : 'less'} than ${guess}.`);
+        console.log(`❌ Incorrect! The number is ${guess < secretNumber ? 'greater' : 'less'} than ${guess}.`);
         provideHint(secretNumber, attempts, chances);
 
         const remains = chances - attempts;
