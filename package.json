@@ -19,6 +19,9 @@
   ],
   "author": "Laizer",
   "license": "ISC",
+  "bin": {
+    "guessing-game": "./index.js"
+  },
   "bugs": {
     "url": "https://github.com/Eleazar-ng/Number-Guessing-Game/issues"
   },
